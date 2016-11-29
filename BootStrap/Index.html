@@ -13,7 +13,6 @@
             margin-bottom: 0px;
         }
 
-
         .nav > li > a {
             position: relative;
             display: block;
@@ -41,6 +40,94 @@
 		}
 		
         ul.breadcrumb li a {color: green;}
+
+
+    #form{
+    width: 800px;
+    height: 260px;
+    border: 2px solid black;
+    float: left;
+    background: darkblue;
+   padding-left: 5px;
+   margin-left: 10px;
+   
+}
+
+#form_title{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact_via{
+      margin-top: 20px;
+      width: 190px;
+      float: left;
+      color: white;
+}
+
+#height{
+    line-height: 200%;
+}
+#height1{
+    line-height: 200%;
+    
+    
+}
+
+#form1{
+    float: left;
+    margin: 20px;
+    width: 510px;
+    color: white;
+    
+}
+
+input{
+    border: none;
+    background-color: inherit;
+    color: white;
+   }
+
+
+#details
+{
+  width: 225px;
+  float: left;
+}
+
+#details1
+{
+  width: 225px;
+  float: right;
+}
+
+#details2{
+    float: left;
+    border-bottom: 1px dotted gray;
+   width: 100%;
+}
+
+#footer{
+    text-align: right;
+    font-size: 10px;
+    color: white;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: darkblue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 
 	</style>
 
@@ -107,7 +194,6 @@
                 </div>
             </div>
 
-
             <!--accordion-->
 
             <div class="container">
@@ -123,7 +209,62 @@
                     </div>
                 </div>
             </div>
-            
+            <hr />
+        
+            <!-- Kontaktformulär-->
+            <div id="form">
+                <div>
+                    <p id="form_title">ta kontakt med oss </p>
+                </div>
+
+                <div id="contact_via">
+                    <div>
+                        <p id="height"> <i class="fa fa-volume-control-phone" aria-hidden="true"></i> +46 (0) 7 39 099 313 </p>
+                        <p id="height"><i class="fa fa-envelope" aria-hidden="true"></i> post@brandingdesign.se </p>
+                    </div>
+                </div>
+
+                <div id="form1">
+                    <div id="details">
+                        <div>
+                            <form style="border-bottom: 1px dotted gray">
+                                <p id="height">Name: <input type="text" name="Name" placeholder="Enter your full name"> </p>
+                            </form>
+                        </div>
+                        <div>
+                            <form style="border-bottom: 1px dotted gray">
+                                <p id="height"> E-post*: <input type="email" name="email" placeholder="Enter your email address"></p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="details1">
+                        <div>
+                            <form style="border-bottom: 1px dotted gray">
+                                <p id="height">Telefon: <input type="text" name="Name" placeholder="telephone number"> </p>
+                            </form>
+                        </div>
+                        <div>
+                            <form style="border-bottom: 1px dotted gray">
+                                <p id="height"> Ämne*: <input type="email" name="email" placeholder="IT/ Customer service"></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="details2">
+                        <form>
+                            <p id="height1">Din anmälan*: <input type="text"></p>
+                        </form>
+                    </div>
+                </div>
+                <div id="footer">
+                    <span style="margin-right:10px"> *:Obligatorisk fält</span>
+                    <span>
+                        <input type="button" class="button" value="Skicka Meddelande">
+                    </span>
+                </div>
+            </div>    
+           
+      
             </body>
 </html >
         
